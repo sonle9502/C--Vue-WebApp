@@ -1,0 +1,21 @@
+// 1️⃣ Biến toàn cục
+@use "variables" as v;
+
+// 2️⃣ Import Bootstrap
+@use "bootstrap" as bs;
+
+// 3️⃣ Import các partial
+@use "buttons";
+@use "layout/header";
+@use "layout/footer";
+@use "patient/addpatient";
+@use "patient/editpatient";
+
+// Authorization
+@use "ath/login";
+@use "ath/register";
+
+// Lab
+@use "lab/labresults";
+
+

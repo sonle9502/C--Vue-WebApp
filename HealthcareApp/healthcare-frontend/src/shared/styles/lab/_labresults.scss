@@ -1,0 +1,22 @@
+/* LabResultsTable.scss */
+.lab-results-table {
+  max-height: 500px;
+  overflow-y: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    th {
+      background-color: #f8f9fa;  // màu nền rõ ràng
+      border-bottom: 2px solid #dee2e6; // viền dưới
+      padding: 8px;
+    }
+  }
+}

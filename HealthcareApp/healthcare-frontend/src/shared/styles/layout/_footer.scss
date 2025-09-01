@@ -1,0 +1,21 @@
+@use "../variables" as v;
+
+.footer {
+  background-color: v.$primary;
+  color: rgb(6, 5, 5);
+  padding: 1rem 0;
+  margin-top: auto;
+  text-align: center;
+
+  small {
+    font-size: 0.9rem;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 1;
+      color: #ffc107;
+    }
+  }
+}

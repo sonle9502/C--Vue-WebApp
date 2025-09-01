@@ -1,0 +1,30 @@
+// _variables.scss
+
+// 🌈 Màu theme
+$primary: #1e40af !default;       // màu chính (header, button chính)
+$secondary: #f59e0b !default;     // màu phụ
+$success: #198754 !default;       // màu thành công (button add)
+$danger: #dc3545 !default;        // màu lỗi / delete
+$warning: #ffc107 !default;       // màu cảnh báo / hover
+$info: #0dcaf0 !default;          // màu info
+$light: #f8f9fa !default;         // màu nền sáng
+$dark: #212529 !default;          // màu nền tối
+
+// 🎨 Text color
+$text-primary: #212529 !default;
+$text-secondary: #6c757d !default;
+$text-white: #ffffff !default;
+
+// 🖋 Font
+$body-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !default;
+
+// 🟢 Border radius
+$border-radius: 0.4rem !default;
+
+// 📏 Spacing
+$spacing-sm: 0.25rem !default;
+$spacing-md: 0.5rem !default;
+$spacing-lg: 1rem !default;
+
+// ⚡ Box shadow (dùng cho card)
+$box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !default;

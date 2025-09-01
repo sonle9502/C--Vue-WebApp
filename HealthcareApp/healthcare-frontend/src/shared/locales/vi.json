@@ -1,0 +1,17 @@
+{
+  "hello": "Xin chào",
+  "welcome": "Chào mừng",
+  "listpatients": "Danh sách bệnh nhân",
+  "patient": {
+    "name": "Tên",
+    "age": "Tuổi"
+  },
+  "addPatient": "Thêm bệnh nhân mới",
+  "searchPatient": "Tìm kiếm theo tên hoặc địa chỉ",
+  "editPatient": "Chỉnh sửa bệnh nhân",
+  "name": "Tên",
+  "age": "Tuổi",
+  "address": "Địa chỉ",
+  "BloodType": "Nhóm máu",
+  "actions": "Hành động"
+}

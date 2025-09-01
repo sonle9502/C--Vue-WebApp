@@ -1,0 +1,33 @@
+.register-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .register-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .card-title {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+
+      a {
+        color: #0d6efd; // bootstrap primary color
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

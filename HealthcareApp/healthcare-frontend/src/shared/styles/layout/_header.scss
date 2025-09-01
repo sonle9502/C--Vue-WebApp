@@ -1,0 +1,52 @@
+@use "sass:color"; 
+@use "../variables" as v;
+
+header {
+  background-color: v.$primary;
+  color: white;
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #ffc107;
+    }
+  }
+
+  .btn-custom {
+    background-color: v.$primary;
+    color: white;
+    border: none;
+    border-radius: v.$border-radius;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+        background-color: color.adjust(v.$primary, $lightness: -10%);
+        color: #ffc107;
+    }
+    }
+    .select-language {
+    background-color: white;
+    color: black;
+    border-radius: v.$border-radius;
+    border: 1px solid darken(v.$primary, 10%);
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: #ffc107;
+    }
+  }
+}

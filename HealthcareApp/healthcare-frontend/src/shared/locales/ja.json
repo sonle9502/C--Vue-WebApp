@@ -1,0 +1,17 @@
+{
+  "hello": "こんにちは",
+  "welcome": "ようこそ",
+  "listpatients": "患者一覧",
+  "patient": {
+    "name": "名前",
+    "age": "年齢"
+  },
+  "addPatient": "新しい患者を追加",
+  "searchPatient": "名前または住所で検索",
+  "editPatient": "患者を編集",
+  "name": "名前",
+  "age": "年齢",
+  "address": "住所",
+  "BloodType": "血液型",
+  "actions": "操作"
+}

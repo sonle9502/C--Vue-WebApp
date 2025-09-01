@@ -1,0 +1,17 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome",
+  "listpatients": "List of Patients",
+  "patient": {
+    "name": "Name",
+    "age": "Age"
+  },
+  "addPatient": "Add New Patient",
+  "searchPatient": "Search by name or address",
+  "editPatient": "Edit Patient",
+  "name": "Name",
+  "age": "Age",
+  "address": "Address",
+  "BloodType": "Blood Type",
+  "actions": "Actions"
+}

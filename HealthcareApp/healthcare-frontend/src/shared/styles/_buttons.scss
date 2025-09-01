@@ -1,0 +1,49 @@
+@use "variables" as v;
+
+.btn-add-patient {
+  background-color: #198754; // màu xanh success tùy chỉnh
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+  &:hover {
+    background-color: #157347; // màu hover
+    transform: translateY(-1px); // nhấn nhẹ khi hover
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-edit {
+  background-color: v.$primary;
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: darken(#0d6efd, 10%);
+  }
+}
+
+.btn-delete {
+  background-color: v.$danger;
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: darken(#dc3545, 10%);
+  }
+}
