@@ -4,7 +4,7 @@ Xin chào! Tôi là **[Tên của bạn]**, và đây là một vài thông tin 
 
 ## Thông tin cơ bản
 - **Họ và tên:** Lê Văn Sơn
-- **Tuổi:** 
+- **Tuổi:** 31
 - **Địa chỉ:**Phan Thiết, Việt Nam
 
 
